@@ -1,0 +1,315 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2018, 11:05:36 PM
+    Author     : dell
+*/
+/*general style*/
+body {
+    font-family: Arial, Verdana sans-serif;
+    background: url("../images/img04.jpg");
+    font-size: 14px;
+}
+h1, h2, h3 {
+    font-family: Nova Mono, cursive;
+}
+.container {
+    height: auto;
+    width: 100%;
+}
+/*header style*/
+.header {
+    font-size: 20px;
+    padding-left: 8%;
+    
+}
+.header>h1 {
+    font-weight: normal;
+}
+h1>a {
+    text-decoration: none;
+    color: black;
+}
+h1>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*menu style*/
+.menu {
+    height: 30px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+}
+.items {
+    padding-top: 15px;
+    list-style-type: none;
+}
+#menu {
+    width: 5px;
+    height: 5px;
+    float: right;
+}
+.menu-item {
+    height: 50px;
+    width: 30px;
+    display: inline;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+    
+}
+.menu-item>a {
+    color: white;
+    text-decoration: none;
+    font-family: Nova Mono, cursive;
+}
+.items > li {
+    display: inline;
+    padding-right: 3%;
+}
+.items >li > a {
+    text-decoration: none;
+    font-family: Nova Mono, cursive;
+}
+.selected {
+    color: white;
+}
+.unselected {
+    color: #71716c;
+}
+li > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+.menu-arrow {
+    height: 20px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+}
+
+#arrow-home {
+    width: 1%;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+#arrow-contact {
+    width: 1%;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+/*content style*/
+.content {
+    width: auto;
+    height: auto;
+}
+.blog {
+    width: 45%;
+    padding-top: 50px;
+    height: auto;
+    padding-left: 3%;
+    float: left;
+    margin-left: 5%;
+    
+}
+.blog-link {
+    height: auto;
+    width: auto;
+    
+}
+.blog-title {
+    height: auto;
+    width: auto;
+    margin-bottom: 40px;
+}
+i>a {
+    text-decoration: none;
+    color: black;
+}
+i > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#cate>a {
+    color: green;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+img {
+    
+    width: 25%;
+    float: left;    
+    margin-right: 20px;
+}
+
+/*right-bar style*/
+.right-bar {
+    width: 35%;
+    
+    height: 300px;
+    padding-top: 50px;
+    float: left;
+    font-style: normal;
+    
+    padding-left: 6%;
+}
+.cate-title {
+    height: 50px;
+    width: 80%;
+    border-bottom: 1px solid black;
+    padding-left: 5%;
+}
+.cate-title>h2 {
+    font-weight: normal;
+}
+.cate-list {
+    height: auto;
+    width: auto;
+}
+.cate-items {
+    list-style-image: url("../images/list-type.JPG");
+}
+.cate-items>li {
+    
+    
+    padding-bottom: 20px;
+}
+
+.cate-items>li>a {
+    text-decoration: none;
+    color: black;
+}
+.cate-items>li>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*footer style*/
+.footer {
+    width: 45%;
+    margin-top: 50px;
+    clear: both;
+    height: 200px;
+    margin-left: 6%;
+    border-top: 1px solid black;
+    float: left;
+    
+}
+.same-list >li {
+    list-style-type: circle;
+    padding-bottom: 30px;
+}
+.same-list >li>a {
+    text-decoration: none;
+    color: black;
+}
+.same-list >li>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cate-items >li>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+    /*for contact page*/
+form {
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: transparent;
+}
+fieldset {
+    height: 500px;
+    width: 80%;
+    margin-top: 30px;
+    border: 1px dashed black;
+    padding-left: 80px;
+}
+legend {
+    height: 20px;
+    width: auto;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    color: white;
+    
+    margin-left: -70px;
+    background-color: #971111;
+}
+input[type=text] {
+    height: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+input[type=email] {
+    height: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+input[type=number] {
+    height: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+textarea {
+    height: 100px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+#message {
+    margin-top: -60px;
+}
+input[type=submit] {
+    height: 30px;
+    width: 16%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #971111;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    margin-right: 25%;
+}
+
+/*contact style*/
+.noti {
+    height: 30px;
+    width: 55%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 4%;
+}
+.form-title {
+    text-align: right;
+    width: 20%;
+    padding-right: 5px;
+}
+.field-name {
+    padding-left: 3%;
+    width: 85%;
+}
+
+
